@@ -11,13 +11,13 @@ https://visualstudio.microsoft.com/vs/community/
 
 
 
-The only code you will need to modify is ProductsControllers.cs
+#The only code you will need to modify is ProductsControllers.cs
 
-Replace this with your connection string
+##Replace this with your connection string
 string sqlConnection = "Data Source=localhost;Initial Catalog=HelloRaye;Integrated Security=true;";
 
 
-Replace this with your own custom query
+##Replace this with your own custom query
 string sqlQuery = "select Name as ProductName, " + // getting product name
     " 'category' as 'Seating'," + // hard code category example
     " 'subCategory' as 'Lounge Chair'," + // hard code subcategory example
@@ -27,8 +27,8 @@ string sqlQuery = "select Name as ProductName, " + // getting product name
     " end as Grade" +
     " from Products where ActivityState = 1";
 
-run to test locally
+##run to test locally
 "dotnet watch run"
 
 
-When ready publish your app to AWS or Azure and share with Hello Raye to validate your payload.
+##When ready publish your app to AWS or Azure and share with Hello Raye to validate your payload.
