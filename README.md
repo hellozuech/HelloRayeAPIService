@@ -1,4 +1,4 @@
-# HelloRayeAPIService
+# HelloRaye API Service Example
 
 1.) To get started make sure you have .net core 5 SDK installed (hosting bundle is the best)
 https://dotnet.microsoft.com/download/dotnet/5.0
